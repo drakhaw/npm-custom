@@ -10,6 +10,7 @@ export * from "./useDeadHosts";
 export * from "./useDnsProviders";
 export * from "./useHealth";
 export * from "./useHostReport";
+export * from "./useLayoutMode";
 export * from "./useLogSources";
 export * from "./useLogTail";
 export * from "./useProxyHost";

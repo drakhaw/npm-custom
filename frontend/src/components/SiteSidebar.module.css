@@ -1,0 +1,3 @@
+.sidebar :global(.navbar-brand-image) {
+	margin-right: 0.6rem;
+}

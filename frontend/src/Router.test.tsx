@@ -15,6 +15,7 @@ vi.mock("src/components", () => ({
 	SiteContainer: ({ children }: { children: ReactNode }) => children,
 	SiteHeader: () => null,
 	SiteMenu: () => null,
+	SiteSidebar: () => null,
 	SiteFooter: () => null,
 	LoadingPage: () => <div>Loading</div>,
 	Unhealthy: () => <div>Unhealthy</div>,

@@ -9,6 +9,14 @@
 	color-scheme: dark;
 }
 
+/* #root has no height of its own between body (height:100%) and .page
+   (min-height:100%), so .page's min-height resolves against an undefined
+   ancestor and the footer no longer sticks to the viewport bottom on short
+   pages. */
+#root {
+	height: 100%;
+}
+
 .modal-backdrop {
 	--tblr-backdrop-opacity: 0.8 !important;
 }

@@ -1,0 +1,6 @@
+# Ensure files copied into Docker images always use LF line endings,
+# regardless of the checkout platform or core.autocrlf setting.
+# CRLF here breaks shebang scripts (s6-overlay, install-s6, common.sh, etc.)
+# when the container runs them under /bin/bash or /bin/sh.
+docker/rootfs/** text eol=lf
+docker/scripts/** text eol=lf
